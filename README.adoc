@@ -1,0 +1,7 @@
+= websocket-demo
+
+[source,javascript,subs="verbatim"]
+----
+var w = new WebSocket('ws://127.0.0.1:8080/websocket');
+w.send('aaaaa');
+----
